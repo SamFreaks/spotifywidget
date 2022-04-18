@@ -69,7 +69,13 @@
                     position: absolute;
                     margin: -20px 0 0 0px;
                 }
-
+                
+                @include screen-md-down {
+                    #bars {
+                        bottom: 30px !important;
+                    }
+                }
+                
                 .bar {
                     width: 3px;
                     bottom: 1px;
